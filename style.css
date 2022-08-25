@@ -1,54 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
 body {
     /* width: 550px;
     height: 405px; */
     /* background-color: #fff; */
-    border-radius: 3%;
+    /* border-radius: 3%; */
 
-    position: absolute;
+    /* position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
-
+    transform: translate(-50%,-50%); */
     display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
     background-color: hsl(30, 38%, 92%);
+    box-sizing: border-box;
 }
 
 .contenedor {
-    width: 550px;
-    height: 405px;
+    /* width: 550px; */
+    /* height: 405px; */
+    width: 42%;
+    height: 30%;
     background-color: #fff;
     border-radius: 3%;
 
-    position: absolute;
-    top: 50%;
+    /* position: absolute; */
+    /* top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%); */
 
     display: flex; 
-    display: -webkit-box;
-    display: -ms-flexbox;
-
+    justify-content: space-between;
+    /* display: -webkit-box;
+    display: -ms-flexbox; */
 }
 
  .imagen {
-    width: 550px;
-    height: 405px;
-    object-position: left;
+    /* width: 550px;
+    height: 405px; */
+    /* object-position: left; */
     width: 50%;
     height: 100%;
     border-start-start-radius: 3%;
     border-end-start-radius: 3%;
-    
 }
 
 .texto {
-    width: 210px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 30px;
+    /* width: 210px; */
     /* background-color: rgb(161, 26, 26);  */
-    margin-left: 30px;
+    /* margin-left: 30px;
     margin-right: 30px;
-    margin-top: 10px;
+    margin-top: 10px; */
     /* margin-bottom: 30px; */
-    line-height: 0;
+    /* line-height: 0; */
     /* height: 405px; */
     /* height: 95%; */
     /* width: 45%; */
@@ -60,12 +76,15 @@ body {
     font-size: 12px;
     letter-spacing: 3px;
     color: rgb(139, 139, 139);
+    text-transform: uppercase;
 }
 
 .titulo {
     font-family: 'Fraunces', serif;
     line-height: 30px;
-    font-size: 14px;
+    font-size: 30px;
+    width: 90%;
+    margin: 20px 0;
 }
 
 .parrafo {
@@ -79,22 +98,25 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 90%;
+    /* width: 90%; */
+    margin: 25px 0;
 }
 
-.precio {
+.precio h2 {
     color: rgb(61, 129, 95);
     font-size: 30px;
     font-family: 'Fraunces', serif;
 }
 
-.precio2 {
+.precio p {
     font-size: 12px;
     text-align: baseline;
     color: rgb(121, 120, 120);
     font-family: 'Montserrat', sans-serif;
-
+    text-decoration: line-through;
+    margin-right: 35px;
 }
+
 
  /* .btn {
     text-decoration: none;
@@ -128,24 +150,28 @@ body {
 }  */
 
 .boton {
-    height: 40px;
     border-color: transparent;
-    justify-content: space-between;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
     color: white;
     background-color: rgb(61, 129, 95);
     border-radius: 5px;
-    size: 20px;
+    /* size: 20px; */
     width: 100%;
-    vertical-align:middle;
+    padding: 12px 0;
+    /* vertical-align:middle; */
 }
 
-.numero {
-    display: block;
+.texto-boton {
+    font-family: 'Montserrat', sans-serif;
+    /* display: block;
     margin-block-start: 5px;
     margin-block-end: 5px;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    
+     */
 }
 
 
