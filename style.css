@@ -1,0 +1,151 @@
+body {
+    /* width: 550px;
+    height: 405px; */
+    /* background-color: #fff; */
+    border-radius: 3%;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    display: flex;
+    background-color: hsl(30, 38%, 92%);
+}
+
+.contenedor {
+    width: 550px;
+    height: 405px;
+    background-color: #fff;
+    border-radius: 3%;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    display: flex; 
+    display: -webkit-box;
+    display: -ms-flexbox;
+
+}
+
+ .imagen {
+    width: 550px;
+    height: 405px;
+    object-position: left;
+    width: 50%;
+    height: 100%;
+    border-start-start-radius: 3%;
+    border-end-start-radius: 3%;
+    
+}
+
+.texto {
+    width: 210px;
+    /* background-color: rgb(161, 26, 26);  */
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 10px;
+    /* margin-bottom: 30px; */
+    line-height: 0;
+    /* height: 405px; */
+    /* height: 95%; */
+    /* width: 45%; */
+         
+}
+
+.subtitulo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    letter-spacing: 3px;
+    color: rgb(139, 139, 139);
+}
+
+.titulo {
+    font-family: 'Fraunces', serif;
+    line-height: 30px;
+    font-size: 14px;
+}
+
+.parrafo {
+    line-height: 25px;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(139, 139, 139);
+}
+
+.precio {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.precio {
+    color: rgb(61, 129, 95);
+    font-size: 30px;
+    font-family: 'Fraunces', serif;
+}
+
+.precio2 {
+    font-size: 12px;
+    text-align: baseline;
+    color: rgb(121, 120, 120);
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+ /* .btn {
+    text-decoration: none;
+    border-radius: 1px;
+    padding: 1px 100px;
+    display: inline-block;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+} 
+
+ .btn-green {
+    color: white;
+    background-color: rgb(71, 110, 71);
+    justify-content: center;
+    border-radius: 5px;
+    size: 10px;
+    padding: 10px 30px;
+    display: flex;
+}
+
+.btn-green:hover { 
+    background-color: rgb(17, 187, 17);
+}
+
+.btn-button {
+    background-color: rgb(1, 48, 1);
+}
+
+.btn-button span { 
+    color: black;
+}  */
+
+.boton {
+    height: 40px;
+    border-color: transparent;
+    justify-content: space-between;
+    color: white;
+    background-color: rgb(61, 129, 95);
+    border-radius: 5px;
+    size: 20px;
+    width: 100%;
+    vertical-align:middle;
+}
+
+.numero {
+    display: block;
+    margin-block-start: 5px;
+    margin-block-end: 5px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    
+}
+
+
